@@ -16,6 +16,8 @@ export const useCounter = ( initialValue = 1 ) => {
         return setCounter(Math.floor(Math.random() * (max - 1) + 1));
     }
 
+    const hello = "string";
+
     return {
         counter,
         increment,
